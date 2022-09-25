@@ -1,0 +1,456 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.2;
+
+}
+.main-containerone{
+    display: grid;
+    grid-gap: 30px;
+    padding: 0 2rem;
+    background: rgb(255 252 252);
+    }
+.main-container{
+    display: grid;
+    grid-gap: 30px;
+    margin: 0 50px 0;
+    }
+img{
+    max-width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+}
+nav li{
+text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.95rem;
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    
+    }
+    nav a:hover{
+        border: #000 solid 2px;
+        border-radius: 5px;
+    }
+.logo{
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    border-radius: 5px;
+    padding: 0.4rem 1.2rem ;
+    font-size: 0.95rem;
+}
+.btn:hover{
+    color: red;
+    background: #fff;
+    border: solid red 2px;
+}
+.login .left{
+    color: red;
+    background: none;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+.one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.one .left{
+    padding-bottom: 1rem;
+}
+.one .left h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+}
+.one .left p{
+    font-size: 0.95rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.float{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 0.6px 5px rgba(104, 104, 104, 0.8);
+}
+.float h3{
+    font-size: 2rem;
+    color: red;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+.two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    padding: 0.4rem;
+    margin: 25px 0 10px;
+}
+.two .right{
+   margin: auto;
+}
+.two .right h3{
+    font-size: 2.7rem;
+    margin: 1rem 0;
+    font-weight: 400;
+}
+.two .small{
+    font-size: 0.94rem;
+}
+.two .big{
+    font-size: 1.3rem;
+}
+
+.three{
+    text-align: center;
+}
+.three h3{
+    font-size: 2.5rem;
+    margin-bottom: 0.6rem;
+}
+.three p{
+    font-size: 0.5rem;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.box{
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    text-align: center;
+    padding: 0.6rem 1rem;
+}
+.box h3{
+    color: red;
+    padding-top: 0;
+    font-weight: 500;
+}
+.box p{
+    font-size: 1rem;
+    padding: 0;
+}
+
+.four h2{
+    margin: 50px auto;
+    font-size: 2rem;
+    border-bottom: #000 solid 1px;
+    width: fit-content;
+    padding-bottom: 1rem;
+    color: #000;
+}
+.boxx{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        margin: 50px 0;
+    }
+    .boxx h4{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .boxx p{
+        font-size: 0.95rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+}
+.boxx div{
+    margin: auto;
+}
+.four .center{
+   display: flex;
+   justify-content: center;
+}
+
+.five h3{
+    margin: 50px auto;
+    font-size: 2rem;
+    border-bottom: #000 solid 1px;
+    width: fit-content;
+    padding-bottom: 1rem;
+    color: #000;
+}
+.five .squares{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.square{
+    background: rgb(252, 239, 239);
+    border-radius: 5px;
+    text-align: center;
+    height: 280px;
+    padding: 0.7rem;
+    margin: 1rem;
+}
+.square:hover{
+    border: red solid 1px;
+    border-radius: 5px;
+}
+.square img{
+    height: 100%;
+    width: 100%;
+}
+.talk{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin: 50px 0 10px;
+}
+.talk h4{
+    font-size: 2rem;
+    margin: 0;
+}
+.talk input{
+    padding: 0.8rem 2rem;
+    margin: 1rem;
+}
+.input{
+   margin: auto;
+}
+
+footer{
+    background: #1d4044;
+    color: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    border-bottom: solid 1px #fff;
+    padding-bottom: 2rem;
+    border-radius: 20%;
+    padding-top: 1rem;
+}
+.fone h3{
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0;
+}
+.fone p{
+    font-size: 0.9rem;
+}
+.phone, .email{
+    display: flex;
+}
+.phone{
+    margin-bottom: 1.3rem;
+}
+.ftwo{
+    margin: auto;
+}
+.ftwo a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 1.2rem;
+}
+.fthree{
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+   margin-bottom: 0;
+   margin-top: 2rem;
+   padding: 0;
+}
+
+
+@media screen and (max-width: 1000px){
+.one .left h1{
+    font-size: 2.4rem;
+}
+.one .left p{
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+}
+@media screen and (max-width: 960px){
+    .one .left h1{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .five .squares{
+       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+       grid-gap: 10px;
+    }
+    .square{
+        height: 280px;
+        padding: 0.7rem;
+        }
+    .boxes{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    }
+.input{
+         text-align: center;
+     }
+}
+@media screen and (max-width: 780px){
+    .one .left h1{
+        margin-top: 0;
+    }
+.one .left p{
+    margin: 0;
+}
+    .main-container {
+    grid-gap: 20px;
+    }
+
+.two .right h3{
+font-size: 1.8rem;
+margin-top: 0;
+}
+.two .big{
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+.two .small{
+    margin-top: 0;
+    font-size: 0.75rem;
+}
+.boxx h4{
+    font-size: 1.7rem;
+    margin: 0 0 1rem;
+}
+.boxx p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.talk h4 {
+    font-size: 1.5rem;
+}
+.talk p{
+    font-size: 0.9rem;
+}
+
+.talk input {
+    padding: 0.6rem 1.5rem;
+    margin: 0.8rem 0 0.8rem 0.8rem
+}
+.input{
+text-align: center;
+}
+.btn {
+   padding: 0.3rem 1rem;
+    font-size: 0.95rem;
+}
+.talk {
+    grid-gap: 20px;
+}
+.login{
+    display: none;
+}
+nav{
+    display: block;
+}
+.logo{
+text-align: center;
+display: block;
+font-size: 1.5rem;
+}
+.list{
+    justify-content: space-between;
+    border-bottom: #f5f5ef solid;
+    padding: 1rem;
+    border-top: #f5f5ef solid;
+}
+}
+@media screen and (max-width: 582px) {
+    
+.logo{
+    font-size: 1.8rem;
+}
+    .list{
+        display: block;
+        padding: 0.5rem;
+    }
+.list li{
+    padding: 1rem;
+}
+.one{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.one .left p {
+    font-size: 1rem;
+    padding-bottom: 1.2rem;
+}
+.float{
+    grid-template-columns: 1fr;
+    margin: 1rem;
+}
+.main-container {
+    grid-gap: 5px;
+    margin: 0 auto;
+}
+.two{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.two .left{
+    margin-bottom: 2rem;
+}
+.boxx {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: 50px 0;
+    text-align: center;
+    border: #000 solid 1px;
+    padding: 1.5rem;
+}
+.talk{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.footer{
+    grid-template-columns: 1fr;
+    text-align: center;
+    border-radius: 0;
+}
+.three h3 {
+    font-size: 2.2rem;
+}
+
+.five h3 {
+    margin: 30px auto;
+    font-size: 1.7rem;
+}
+.boxx h4 {
+    font-size: 1.4rem;
+}
+.four h2{
+    font-size: 1.6rem;
+}
+}
